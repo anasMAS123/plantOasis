@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/partner.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+    <title>PlantOasis|partner</title>
+  </head>
+  <body>
+    <!-- nav bar -->
+    <nav class="nav">
+      <a href="/">
+        <span class="logo">plantOasis</span>
+      </a>
+      <span class="text">
+        🌴A better world for plants, a better world for humans🌴
+      </span>
+      <div class="button-collection">
+        <a href="/partner.html">
+          <button>be a partner</button>
+        </a>
+        <a href="/about-us.html">
+          <button>about us</button>
+        </a>
+        <button class="mode-button">
+          <img src="/public/sun.png" alt="mode" width="20" height="20" />
+        </button>
+      </div>
+    </nav>
+    <!-- main-content -->
+    <div class="main">
+      <form action="/thanks.html">
+        <h3>Join us now🌴</h3>
+        <label for="fname">fullName</label>
+        <input type="text" name="name" id="name" required />
+        <label for="email">email</label>
+        <input type="text" name="email" id="email" required />
+        <label for="address">address</label>
+        <input type="text" name="address" id="address" required />
+        <label for="reasons">why do you join us ?</label>
+        <textarea name="reasons" id="reasons" required></textarea>
+        <input type="submit" value="Send the form" />
+      </form>
+    </div>
+    <script src="/js/main.js"></script>
+  </body>
+</html>
