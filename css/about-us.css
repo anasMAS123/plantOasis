@@ -45,7 +45,7 @@
 .member img {
   border-radius: 50%;
   position: absolute;
-  z-index: 20;
+  /* z-index: 20; */
   background-color: var(--main-background-color);
   top: -30px;
   left: 30px;

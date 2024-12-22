@@ -44,7 +44,7 @@
   width: 20px;
   height: 20px;
 }
-.main .actions button.partner {
+.main .actions .partner {
   background-color: var(--main-color);
   color: white;
 }
@@ -54,6 +54,6 @@
 }
 
 /* -------------------------------------------------------------------------------- */
-.join-form {
+/* .join-form {
   margin-top: 30px;
-}
+} */

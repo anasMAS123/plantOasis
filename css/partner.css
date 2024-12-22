@@ -44,6 +44,7 @@
 .main form label:not(:nth-of-type(1)) {
   margin-top: 10px;
 }
+
 .main form input {
   width: calc(100% - 40px);
   padding: 20px;

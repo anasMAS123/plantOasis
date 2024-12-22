@@ -57,10 +57,10 @@ button:hover:not(.mode-button) {
 .logo {
   text-decoration: none;
   font: bold;
-  width: fit-content;
-  height: fit-content;
+  /* width: fit-content;
+  height: fit-content; */
   color: white;
-  padding: 12px 10px;
+  padding: 10px 12px;
   background-color: var(--main-color);
   border-radius: 4px;
 }
@@ -70,12 +70,12 @@ button:hover:not(.mode-button) {
   gap: 10px;
 }
 .mode-button {
+  cursor: pointer;
   background-color: white;
   border-radius: 50%;
   border: none;
 }
 .mode-button img {
-  cursor: pointer;
   display: block;
   width: 20px;
   height: fit-content;

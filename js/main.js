@@ -1,6 +1,7 @@
 const modeButton = document.getElementsByClassName("mode-button")[0]; //mode-button
-const modeButtonImg = document.querySelector(".mode-button img"); // image of the mode button
-console.log(modeButtonImg);
+console.log(modeButton);
+const modeButtonImg = document.getElementsByClassName("mode-image")[0]; // image of the mode button
+
 let mode = localStorage.getItem("mode")
   ? localStorage.getItem("mode")
   : "light";
@@ -69,5 +70,5 @@ const nameAdder = document.getElementsByClassName("name-adder")[0];
 
 const url = new URL(window.location.href); // get the current url
 const params = new URLSearchParams(url.search); // get the current queries
-const name = params.get("name");
+const name = params.get("fname");
 nameAdder.textContent += `,${name}`;
