@@ -2,7 +2,7 @@
   flex: 1;
   transition: 0.3s all ease;
 
-  background-image: url("/public/nature4k.jpg");
+  background-image: url("nature4k.jpg");
   background-color: var(--main-background-color);
   min-height: calc(100% - 82px);
   padding-left: 30px;
