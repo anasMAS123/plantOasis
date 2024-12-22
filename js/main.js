@@ -15,7 +15,7 @@ if (mode === "dark") {
   document.documentElement.style.setProperty("--text-color", "white");
   document.documentElement.style.setProperty("--border-color", "white");
   document.documentElement.style.setProperty("--member-border-color", "white");
-  modeButtonImg.src = "/public/sun.png";
+  modeButtonImg.src = "./public/sun.png";
 } else {
   document.documentElement.style.setProperty("--main-color", "#5cb338");
   document.documentElement.style.setProperty(
@@ -29,7 +29,7 @@ if (mode === "dark") {
     "#5cb338"
   );
 
-  modeButtonImg.src = "/public/night.png";
+  modeButtonImg.src = "./public/night.png";
 }
 
 modeButton.addEventListener("click", function () {
@@ -47,7 +47,7 @@ modeButton.addEventListener("click", function () {
     );
 
     localStorage.setItem("mode", "dark");
-    modeButtonImg.src = "/public/sun.png";
+    modeButtonImg.src = "./public/sun.png";
   } else {
     document.documentElement.style.setProperty("--main-color", "#5cb338");
     document.documentElement.style.setProperty(
@@ -62,7 +62,7 @@ modeButton.addEventListener("click", function () {
     );
 
     localStorage.setItem("mode", "light");
-    modeButtonImg.src = "/public/night.png";
+    modeButtonImg.src = "./public/night.png";
   }
 });
 // ---------------------------------------------------------------------------------- //

@@ -36,7 +36,7 @@
 .main .actions button.partner:before {
   content: "";
   position: absolute;
-  background-image: url("/public/leaf.png");
+  background-image: url("./public/leaf.png");
   background-size: cover;
   background-position: center;
   top: -10px;
